@@ -1,9 +1,9 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 import generateGradient from "./generator";
+import LinearGradient from 'react-native-linear-gradient';
 
 export default ({ gradient, children, style }) => {
-  const LinearGradient = require("expo").LinearGradient;
   const generated = generateGradient(gradient, {
     width: style.width,
     height: style.height

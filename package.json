@@ -14,11 +14,11 @@
   "homepage": "https://github.com/catalinmiron/react-native-css-gradient#readme",
   "main": "index.js",
   "dependencies": {
-    "gradient-parser": "0.1.5"
+    "gradient-parser": "0.1.5",
+    "react-native-linear-gradient": "^2.4.2"
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*",
-    "expo": "*"
+    "react-native": "*"
   }
 }

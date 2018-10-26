@@ -1,6 +1,3 @@
-/*
-  TODO: write tests (lazy) like always right? <3
-*/
 const parser = require("gradient-parser");
 
 const getColor = color => {
